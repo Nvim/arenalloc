@@ -1,5 +1,6 @@
 CC=gcc
-SRCS=$(wildcard src/*.c)
+# SRCS=$(wildcard src/*.c)
+SRCS=src/main.c
 CFLAGS=-std=c11 -pedantic -Wall -Wextra -Wvla -fvisibility=hidden -fPIC
 EXTRA_FLAGS=-Werror
 DEBUG_FLAGS=-ggdb
